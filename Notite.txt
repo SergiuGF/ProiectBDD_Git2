@@ -1,0 +1,22 @@
+Git si GitHub - basic concepts
+
+1. Sistemele VCS (Version Control System) se folosesc pt. sincronizarea mai multor versiuni si dezvoltatori
+2. Un exemplu de VCS este Git. Git a fost conceput de Linus Thorvalds.
+3. Apare conceptul de Repository (Repo) - este un foldor care inmagazinează codul pe durata intregii lui vieti
+    a. Local Repo - un folder pe PC (folosim ca Git ca limbaj pentru a gestiona activiatea)
+    b. Remote Repo - copia de pe server (Github)
+    c. Git - se de intrusctiuni pe care il folosim ca sa comunicam intre Local si Remote Repo
+4. Comit = Salvarea/Statusul complet al proiectului intr-o anume data (versiunea tuturor fisierelor).
+5. Mesaj Comit = fiecare Comit trebuie sa contina un mesaj care sa descrie schimbarile cu privire la versiunile anterioare
+6. Jira - O unealta (web) pt administrarea sarcinilor/cerintelor/taskuri-lor dintr-un proiect de software
+7. Branch - O linie separata de dezvoltare de cod, pt diverse functionalitati/medii de dezvoltare
+    a. Master/Main - este linia principala de dezvoltare (chiar si productie)
+    b. QA/UAT (user acceptance testing) - linia de dezvoltare pt ultima faza a testării inainte de productie
+    c. Develop - prima linie de dezvoltare (de unde se incepe dezvoltarea unui proiect/produs de software)
+8. Clone - procesul prin care facem prima copie din Remote in Local Repo
+9. Pull - aduce schimbarile de pe Branch-ul Remote in Local Repo
+10. Push - trimite schimbarile din Local in Remote Repo.
+11. Checkout - schimbam branch-ul activ (il folosim in Local)
+12. Merge - combina schimbarile unui Branch in alt Branch
+13. Conflict - apare cand vrem sa combina doua Branch-uri care au schimbat cel putin un fisier comun.
+14. Pull Request - procesul prin care fac o petite de review pt combinarea a 2 Branch-uri - de obiecei merge impreuna cu Merge

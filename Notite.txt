@@ -20,3 +20,4 @@ Git si GitHub - basic concepts
 12. Merge - combina schimbarile unui Branch in alt Branch
 13. Conflict - apare cand vrem sa combina doua Branch-uri care au schimbat cel putin un fisier comun.
 14. Pull Request - procesul prin care fac o petite de review pt combinarea a 2 Branch-uri - de obiecei merge impreuna cu Merge
+""
